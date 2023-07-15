@@ -1,0 +1,4 @@
+components.d.ts
+nuxt.d.ts
+public/static/*
+api/$api.ts
