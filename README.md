@@ -48,11 +48,11 @@ export type Methods = DefineMethods<{
 <template>
   <div>
     <h1>Hello World!</h1>
-    <button @click="getPosts">getPosts</button>
+    <button @click="getPosts">Get Posts</button>
   </div>
 </template>
 <script lang="ts" setup>
-const sendRequests = async () => {
+const getPosts = async () => {
   const response = await useApi().posts.get()
 }
 </script>
